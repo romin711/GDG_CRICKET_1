@@ -1,0 +1,57 @@
+# Root
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment files
+.env
+.env.*
+**/.env.local
+**/.env.development.local
+**/.env.test.local
+**/.env.production.local
+!.env.example
+!**/.env.example
+!**/.env.*.example
+
+# Node modules and package manager artifacts
+**/node_modules/
+.npm/
+.pnpm-store/
+.yarn/
+
+# Tooling caches
+.cache/
+.eslintcache
+*.tsbuildinfo
+**/.parcel-cache/
+**/.next/
+**/.nuxt/
+**/.vite/
+
+# Build and coverage outputs
+**/build/
+**/dist/
+**/coverage/
+
+# Runtime/temp files
+*.pid
+*.seed
+*.pid.lock
+*.tmp
+*.temp
+
+# IDE/editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS-specific noise
+**/.DS_Store
